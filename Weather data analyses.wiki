@@ -1,0 +1,39 @@
+[[Weather data analyses]] - [[wda]] - TLP
+
+GOAL - TASKS - NEXT - NOTES - DUMP - ARCHIVE
+
+Write blog posts about analyses of the weather data.
+
+GOAL
+TASKS
+NEXT
+NOTES
+DUMP
+ARCHIVE
+
+Next posts:
+- General data merging - under learning python not wda
+- function to plot 1 station
+
+- [[wda-Basic Data Prep]]
+- Blog post: Parse single station
+- Blog post: Plots for 1 station
+  - When inspecting a single station, can we see that recent years have higher temperatures?
+  - The daily data is just too noisy - so average over months.
+  - Plotting the monthly average for each year is also too noisy, so plot per decade.
+  - We are actually interested in the deviations from some baseline - use the average over all the available data and compute deviations relative to that.
+  - Highlight the last two decades.
+  - Here we can clearly see that the average monthly maximum temperatures of the last two decades are higher than the baseline (only one deviation is negative, all other are positive).
+
+DUMP
+
+- Cache with cachier? https://github.com/shaypal5/cachier
+
+ARCHIVE
+
+- [X] Create project repo
+  - [X] Will be a python module, but use the same project layout as I use for R.
+  - [X] Call it wda
+  - [X] Start with just a python script and a git repo
+  - [X] First function is load_station which takes as input the station name and the data folder path.
+

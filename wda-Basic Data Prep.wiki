@@ -1,0 +1,35 @@
+[[wda-Basic Data Prep]]
+
+[[wda]]
+
+- [X] Write the blog post. (p005) 
+
+ARCHIVE
+
+- [X] Get and prep the files
+  - [X] Download all daily summaries from FTP: https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/
+  - [X] Move to big drive
+    - [X] Get write access to drive TODO: blog post?
+      - [X] Add rw to fstab; switch off hibernate in windows; run checkdisk. #Blog
+  - [X] Extract all files
+  - [X] Place readme next to data.
+  - [X] How to find the largest file in a folder?
+    - find -type f -printf "%s\t%p\n" | sort -n | tail
+      - https://www.cyberciti.biz/faq/linux-find-largest-file-in-directory-recursively-using-find-du/
+      - https://opensource.com/article/18/4/how-use-find-linux
+- [X] Attempt to load data into python and see what goes wrong.
+  - [X] sep = \s+ for separating on more than one space
+  - [X] specify column names to deal with unequal number of columns per row https://stackoverflow.com/questions/27020216/import-csv-with-different-number-of-columns-per-row-using-pandas
+    - [X] Complex list comprehension:
+      - [X] ['station'] + [item for t in [('v_'+str(i+1), 'f_'+str(i+1)) for i in range(31)] for item in t] TODO Card: unpack list of tuples. https://www.geeksforgeeks.org/python-convert-list-of-tuples-into-list/
+      - x = pd.read_table('ghcnd_all/USW00093822.dly', sep = '\s+', header = None, names = names)
+- [X] Rotate into long format - move days into the index effectively
+  - [X] Pack non-repeated columns into row index
+  - [X] Create multiIndex for column
+  - [X] Stack column index into row index
+  - [X] Reset index to enable queries
+    - [X] Is this needed? can you not query on the index values with more granularity?
+  - [X] This is all done now. See load_station function of wda.
+- [X] Convert to factors.
+  - Not necessary with MultiIndex. Keep an eye on doing this when running .reset_index()
+
