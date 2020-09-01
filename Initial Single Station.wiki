@@ -1,5 +1,8 @@
 [[index]] - [[Initial Single Station]]
 
+
+
+
 - Blog post: Plots for 1 station
   - When inspecting a single station, can we see that recent years have higher temperatures?
   - The daily data is just too noisy - so average over months.

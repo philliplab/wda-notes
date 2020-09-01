@@ -1,0 +1,3 @@
+[[index]]   [[Basic Caching]]
+
+- Cache with cachier? https://github.com/shaypal5/cachier

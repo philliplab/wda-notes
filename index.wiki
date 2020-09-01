@@ -1,4 +1,4 @@
-[[wn.wda:index|Weather Data Analysis]] [[wn.los:index|LOS]]
+[[wn.wda:index|Weather Data Analysis]]   [[wn.los:index|LOS]]
 
 GOAL - PLAN - CURRENT - NOTES - DUMP - ARCHIVE
 
@@ -7,27 +7,19 @@ Learn Python Data Science tools with the GHCND data.
 
 *PLAN*
 
-- [[Initial Single Station]]: aggregate by month and aggregate by year.
+- Basic investigation of missingness for single station.
+- [[Basic Caching]]: Assume dataset and metric choices do not change.
+- Basic missingness for all stations.
+- Link with location for Geo-plots.
 
 *CURRENT*
-- Tasks & Tracking
+
+- Overview post for wda project on philliplab.com
+- [[Initial Single Station]]: aggregate by month and aggregate by year.
 
 *NOTES*
-Using vimwiki
-Use <project_name>-<notes> as naming convention.
-Split files into: GOAL - PLAN - CURRENT - NOTES - DUMP - ARCHIVE
 
 *DUMP*
 
-- Cache with cachier? https://github.com/shaypal5/cachier
-
 [[ARCHIVE]]
-
-
-
-
-
-
-
-
 
