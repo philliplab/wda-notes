@@ -1,0 +1,10 @@
+[[index]] - [[ARCHIVE]] 
+
+[[wda-Basic Data Prep]]
+[[Weather data analyses]]
+
+- [X] Create project repo
+  - [X] Will be a python module, but use the same project layout as I use for R.
+  - [X] Call it wda
+  - [X] Start with just a python script and a git repo
+  - [X] First function is load_station which takes as input the station name and the data folder path.

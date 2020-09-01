@@ -1,0 +1,10 @@
+[[index]] - [[Initial Single Station]]
+
+- Blog post: Plots for 1 station
+  - When inspecting a single station, can we see that recent years have higher temperatures?
+  - The daily data is just too noisy - so average over months.
+  - Plotting the monthly average for each year is also too noisy, so plot per decade.
+  - We are actually interested in the deviations from some baseline - use the average over all the available data and compute deviations relative to that.
+  - Highlight the last two decades.
+  - Here we can clearly see that the average monthly maximum temperatures of the last two decades are higher than the baseline (only one deviation is negative, all other are positive).
+

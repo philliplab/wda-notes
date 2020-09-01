@@ -1,4 +1,33 @@
 [[wn.wda:index|Weather Data Analysis]] [[wn.los:index|LOS]]
 
-[[wda-Basic Data Prep]]
-[[Weather data analyses]]
+GOAL - PLAN - CURRENT - NOTES - DUMP - ARCHIVE
+
+*GOAL*
+Learn Python Data Science tools with the GHCND data.
+
+*PLAN*
+
+- [[Initial Single Station]]: aggregate by month and aggregate by year.
+
+*CURRENT*
+- Tasks & Tracking
+
+*NOTES*
+Using vimwiki
+Use <project_name>-<notes> as naming convention.
+Split files into: GOAL - PLAN - CURRENT - NOTES - DUMP - ARCHIVE
+
+*DUMP*
+
+- Cache with cachier? https://github.com/shaypal5/cachier
+
+[[ARCHIVE]]
+
+
+
+
+
+
+
+
+
