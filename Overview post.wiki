@@ -1,0 +1,19 @@
+[[index]]   [[Overview post]]
+
+Write a post that can serve as a general introduction for the project. It will probably get updated constantly as the project grows.
+
+PLAN
+
+CURRENT
+
+NOTES
+
+ARCHIVE
+
+- DONE - Deploy the post?
+- Replace the intro in the data post with something appropriate.
+- Grab the intro from the GHCND data post and move it into the overview post
+  - And expand it to serve as an entrypoint post for the whole project.
+- Figure out how to link between posts in Hugo
+  - Done; made cards see 2nd combining pandas post for more
+

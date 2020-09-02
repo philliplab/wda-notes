@@ -1,0 +1,20 @@
+[[index]]   [[Incubate names wda project]]
+
+Get a punchy marketable name for the project
+
+CURRENT
+
+- Brainstorm names (See NOTES)
+- Decide
+
+NOTES
+
+- Climate Insights
+- Climate Farsight
+- Freyr Sight? Favour? Wrath? 
+
+ARCHIVE
+
+- Figure out how to link between posts in Hugo
+  - Done; made cards see 2nd combining pandas post for more
+

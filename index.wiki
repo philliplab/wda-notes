@@ -1,4 +1,4 @@
-[[wn.wda:index|Weather Data Analysis]]   [[wn.los:index|LOS]]
+[[wn.los:index|LOS]]   [[wn.wda:index|Weather Data Analysis]]
 
 GOAL - PLAN - CURRENT - NOTES - DUMP - ARCHIVE
 
@@ -11,10 +11,10 @@ Learn Python Data Science tools with the GHCND data.
 - [[Basic Caching]]: Assume dataset and metric choices do not change.
 - Basic missingness for all stations.
 - Link with location for Geo-plots.
+- [[Incubate names wda project]]
 
 *CURRENT*
 
-- Overview post for wda project on philliplab.com
 - [[Initial Single Station]]: aggregate by month and aggregate by year.
 
 *NOTES*
