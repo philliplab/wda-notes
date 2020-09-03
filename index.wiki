@@ -15,11 +15,15 @@ Learn Python Data Science tools with the GHCND data.
 
 *CURRENT*
 
+- Figure out version control for ipynbs - looks like it will be jupytext
 - [[Initial Single Station]]: aggregate by month and aggregate by year.
 
 *NOTES*
 
 *DUMP*
+
+- Figure out vim jupyter notebook integration - it looks painful.
+- Test python in rmarkdown - it is also painful.
 
 [[ARCHIVE]]
 

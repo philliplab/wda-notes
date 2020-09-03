@@ -1,5 +1,16 @@
 [[index]] - [[Initial Single Station]]
 
+GOAL - PLAN - CURRENT - NOTES - DUMP - ARCHIVE
+
+GOAL
+
+A first post demonstrating some of the structure of the data
+
+PLAN
+
+Plot # missing per year
+Plot averages per year + fitted linear models
+Plot decade averages per month
 
 
 
